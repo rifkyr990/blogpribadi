@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Saira+Condensed:wght@300;400;500;600;700&display=swap');
+nav,
+        .font-source {
+            font-family: 'Source Serif Pro', serif;
+        }
+
+        .btn-gradient {
+            background: #8E2DE2;
+            background: -webkit-linear-gradient(to right, #4A00E0, #8E2DE2);
+            background: linear-gradient(to right, #4A00E0, #8E2DE2);
+        }
+
+        .font-saira {
+            font-family: 'Saira Condensed', sans-serif;
+        }
+
+        .facebook {
+            color: #3b5999;
+        }
+
+        .twitter {
+            color: #46c1f6;
+        }
+
+        .instagram {
+            color: #e1306c;
+        }
+
+        .github {
+            color: #333333;
+        }
+
+        .youtube {
+            color: #de463b;
+        }
+
+        @media screen and (max-width: 992px) {
+            .text-content {
+                text-align: center;
+                margin-top: 2rem;
+            }
+
+            .button {
+                justify-content: center;
+            }
+        }
